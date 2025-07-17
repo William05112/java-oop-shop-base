@@ -12,7 +12,7 @@ public class Prodotto {
     public Prodotto(String nome, String descrizione, double prezzo, int iva) {
     this.codice = newCodice(); 
     this.nome = nome;
-    this.descrizione = descrizione != null ? descrizione : "";
+    this.descrizione = descrizione;
     this.prezzo = prezzo;
     this.iva = iva;
 }
